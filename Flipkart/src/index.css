@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+:root {
+  --backgroundGradient: linear-gradient(147deg, rgb(223, 218, 198) 0%, rgb(240, 221, 49) 100%);
+  --backgroundColor: #f1f3f6;
+  --blueColor: #2874f0;
+  --anohterBlueColor: #f0f5ff;
+  --darkBlueColor: #172337;
+}
+button {
+  background-color: var(--blueColor);
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 0.3rem 1rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+
+/* ---------------------NAVBAR--------------------- */
+.navbar {
+  width: 90rem;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar input {
+  width: 25rem;
+  height: 2.2rem;
+  border: none;
+  background-color: #f0f5ff;
+  border-radius: 0.6rem;
+  padding: 0rem 1rem;
+  font-size: 1.2rem;
+}
+.title ul {
+  font-size: 1.7rem;
+  gap: 0.8rem;
+}
+.items {
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+.items ul {
+  cursor: pointer;
+  font-size: 1.3rem;
+  gap: 2.5rem;
+}
+
+
+/* ---------------------HOME--------------------- */
+.home {
+  width: 90rem;
+  margin: auto;
+  background-color: var(--backgroundColor);
+}
+.top {
+  width: 80rem;
+  margin: auto;
+  background-color: var(--anohterBlueColor);
+  padding: 0.2rem 2rem;
+}
+.top .category {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 3.5rem;
+}
+.top .category img {
+  margin-top: 1rem;
+  width: 10rem;
+}
+figure {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+.middle {
+  margin: 1rem 0rem;
+}
+.middle img {
+  display: block;
+  margin: auto;
+}
+
+
+
+.offers {
+  width: 90rem;
+  margin: auto;
+  background-color: var(--backgroundColor);
+}
+.offersFlex {
+  width: 70rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.itemBox {
+  border: 1px solid rgb(203, 203, 203);
+  border-radius: 0.6rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.05rem;
+}
+.itemBox img {
+  width: 15rem;
+  border-radius: 0.6rem;
+}
+.itemBox h2 {
+  font-size: 1.2rem;
+}
+.itemBox h4 {
+  font-size: 1rem;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.3rem 0rem;
+}
+.buttons button {
+  font-size: 1rem;
+  margin: 0rem 0.2rem;
+}
+
+.footer {
+  width: 100rem;
+  margin: auto;
+
+  background-color: var(--darkBlueColor);
+  height: 10rem;
+  position: bottom;
+  bottom: 0;
+}
+
+
+.mainLogin {
+  display: flex;
+  justify-content: center;
+
+  width: 90rem;
+  margin: auto;
+  background-color: var(--backgroundColor);
+}
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 0.7rem;
+  border: 1px solid rgb(191, 191, 191);
+  padding: 1rem;
+  margin: 5rem 0rem;
+  background-color: white;
+}
+.login .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+.login input {
+  width: 20rem;
+  height: 2.2rem;
+  border: none;
+  background-color: #f0f5ff;
+  border-radius: 0.6rem;
+  padding: 0rem 1rem;
+  font-size: 1.2rem;
+  margin: 0.5rem;
+}
+.login button {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+.form p {
+  font-size: 1.1rem;
+  margin-top: 1.1rem;
+  margin-bottom: 0.4rem;
+}
+.options {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.optionsIcon {
+  margin: 0.1rem;
+}
+.options img {
+  width: 2rem;
+  cursor: pointer;
+}
+.options ul li {
+  margin: 0rem 1rem;
+}
+
+.footer {
+  background-color: var(--darkBlueColor);
+  height: 10rem;
+}

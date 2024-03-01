@@ -1,0 +1,64 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 0px;
+    margin: 0;
+    text-align: center;
+}
+
+.name {
+    color: red;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+button:hover {
+    border: 0.5px solid white;
+}
+
+input {
+    padding: 5px;
+    border-radius: 12px;
+
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 15px;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3rem 1rem;
+}
+.items ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.containsBtn {
+    position: absolute;
+    right: 0;
+    display: none;
+}
+@media all and (max-width: 872px) {
+    .items {
+        display: none;
+    }
+    .containsBtn {
+        display: block;
+    }
+}

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+:root {
+    --backgroundColor: #f0f2f5;
+    --blueColor: #354abf;
+    --greenColor: #42b72a;
+    --darkBlueColor: #00204a;
+    --lightBlueColor: #00bbf0;
+}
+body {
+    max-width: 1900px;
+    margin: auto;
+    overflow-x: hidden;
+}
+input {
+    font-size: 1.1rem;
+    border: 1px solid lightgray;
+    border-radius: 0.45rem;
+    padding: 0.1rem 1rem;
+}
+button {
+    font-size: 0.9rem;
+    padding: 0.1rem 1rem;
+    border: 1px solid lightgray;
+    border-radius: 0.4rem;
+}
+button:hover {
+    border: 1px solid black;
+}
+span {
+    margin: 0.1rem 1rem 0.1rem 0rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 0.5rem 1rem;
+}
+.navbar .navItems {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.bar {
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.productCard {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    border: 1px solid lightgray;
+    max-width: fit-content;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    align-items: center;
+}
+.productCardButtons {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.cardImg {
+    width: 10rem;
+}
+.cardImgDiv {
+    display: flex;
+    align-items: center;
+    height: 15rem;
+}
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    padding: 1rem;
+    max-width: 95%;
+    margin: auto;
+}
+.priceTag {
+    background-color: lightgray;
+    border-radius: 0.4rem;
+    width: 100%;
+    text-align: center;
+    padding: 0.1rem 0rem;
+}
+
+/* -------------------------------------------------- */
+.login {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    max-width: fit-content;
+    margin: auto;
+    border: 1px solid lightgray;
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+.loginItems {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.3rem;
+    padding: 0.5rem;
+    max-width: fit-content;
+}
+.loginItems h2 {
+    margin-bottom: 0.5rem;
+}

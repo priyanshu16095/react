@@ -1,0 +1,10 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    gap: 0.3rem;
+}
+
+input, button {
+    font-size: 1.5rem;
+}
